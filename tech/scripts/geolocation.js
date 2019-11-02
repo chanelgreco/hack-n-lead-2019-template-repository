@@ -1,6 +1,4 @@
 const locationIqToken = '5ce70522012fda';
-let latitude;
-let longitude;
 
 function getLocation() {
   if (navigator.geolocation) {
@@ -12,10 +10,7 @@ function getLocation() {
 
 function storeGeoLocation(position) {
   console.log(position.coords.latitude, position.coords.longitude);
-  latitude = position.coords.latitude;
-  longitude = position.coords.longitude;
-  // return latitude, longitude;
-  getReverseGeocoding(latitude, longitude);
+  getReverseGeocoding(position.coords.latitude, position.coords.longitude);
 }
 
 function getReverseGeocoding(lat, long) {
@@ -30,14 +25,21 @@ function getReverseGeocoding(lat, long) {
         return;
       }
 
-      // Examine the text in the response
       response.json().then(function(data) {
-        console.log(data);
+        writeLocation(data);
       });
     })
     .catch(function(err) {
       console.log('Fetch Error :-S', err);
     });
+}
+
+function writeLocation(data) {
+  let locationInput = document.querySelector('#location');
+
+  console.log(locationInput);
+
+  locationInput.placeholder = `${data.address.road}, ${data.address.postcode} ${data.address.city}, ${data.address.country}`;
 }
 
 getLocation(storeGeoLocation);

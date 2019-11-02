@@ -10,20 +10,20 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
+      <h1>Report a case of modern slavery</h1>
       <div class="row justify-content-center">
         <div class="col-md-8">
           <form>
             <div class="form-group">
-              <p>Location</p>
-              <p>Some random address..</p>
-              <label for="exampleInputEmail1">Change location</label>
+              <label for="exampleInputEmail1">Location</label>
               <input
                 type="text"
-                class="form-control form-control-lg"
+                class="form-control"
                 id="location"
                 aria-describedby="locationHelp"
                 placeholder="Bahnhofstrasse 1, Zurich, Switzerland"
@@ -33,28 +33,22 @@
               <label for="companyName">Company name</label>
               <input
                 type="text"
-                class="form-control form-control-lg"
+                class="form-control"
                 id="companyName"
                 placeholder="Bad Company Ltd."
               />
             </div>
 
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary  btn-lg dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <div class="form-group">
+              <label for="sel1">Select slavery category</label>
+              <select class="form-control" id="categories">
+                <option>Child slavery</option>
+                <option>Human trafficking</option>
+                <option>Forced labour</option>
+                <option>Bonded labour</option>
+                <option value="">Forced marriag</option>
+                <option value="">Descent based</option>
+              </select>
             </div>
 
             <p>You can upload pictures or documents</p>
@@ -79,7 +73,7 @@
 
             <div class="form-group">
               <label for="exampleFormControlTextarea1"
-                >You can add a comment</label
+                >Describe what you witnessed</label
               >
               <textarea
                 class="form-control"
