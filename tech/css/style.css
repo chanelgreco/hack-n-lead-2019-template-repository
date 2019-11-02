@@ -37,10 +37,14 @@ h3 {
 }
 
 .navbar {
-  color: #fff;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
+    background-color: rgba(46, 46, 46, 1);
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
 }
+
+
 
 @media (min-width: 768px) {
   h1 {
