@@ -35,7 +35,7 @@ We decided as a team to creat a webapp which allows people around the globe to r
 
 The webapp is called **P.A.S. – People Against Slavery**. It is a webapp and not a mobile app for iOs and Andriod so it's not limited to any OS or device and everyone can use it in the browser.
 
-- description parts of the app 
+The webapp covers the opportunity to report slavery issues and a section where everybody can read more about the problems in context.
 
 - screenshot index page
 
