@@ -24,6 +24,7 @@ The [Thomson Reuters Challenge](https://share.nuclino.com/p/HacknLead-2019-Chall
 
 **"Combating Modern Slavery in the Supply Chains through Technology"**
 
+
 ## Preparation for Hack'n'Lead
 
 As challenges were published, Valentina Coco invited the team to attend a virtual design sprint. 
@@ -45,6 +46,7 @@ The webapp covers the opportunity to report slavery issues and a section where e
 
 ![Home Screen](screens/Home.png)
 
+
 ### Reporting issues
 
 The reportin form is fitted with a geolocator to fill out the position information automatically.
@@ -55,7 +57,13 @@ The reportin form is fitted with a geolocator to fill out the position informati
 ### Modern Slavery Wiki
 The Modern Slavery wiki is the educational part of the app. A draft how this wiki could look like and which categories of information and links to external sources it could contain are just documented in the presentation slides but not in the app until now.
 
+This is an example on topics the wiki could contain:
+
 ![Education Sample](screens/education-sample.png)
+
+
+## Further information
+Further information concerning the P.A.S. project you can in the presentation slides inside the docs folder. There is also included a detailed version of the business model.
 
 
 ## License
