@@ -11,18 +11,14 @@ let baseLayer = L.tileLayer(
 let cfg = {
   radius: 40,
   useLocalExtrema: true,
-  valueField: 'price'
+  valueField: 'index'
 };
 let heatmapLayer = new HeatmapOverlay(cfg);
-
-// // Determine min/max (from sales.js file) for the heatmap.js plugin
-// let min = Math.min(...sales.map(sale => sale.value));
-// let max = Math.max(...sales.map(sale => sale.value));
 
 // Create the overall Leaflet map using the two layers we created
 let propertyHeatMap = new L.Map('map', {
   center: new L.LatLng(37.8, -96),
-  zoom: 1,
+  zoom: 2,
   layers: [baseLayer, heatmapLayer]
 });
 
