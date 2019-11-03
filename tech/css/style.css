@@ -28,7 +28,6 @@ h3 {
 p {
   font-size: 1.2rem;
   font-weight: 300;
-  
 }
 
 .btn-primary {
@@ -50,12 +49,18 @@ p {
   font-size: 0.8rem;
 }
 
+.header {
+  background-color: rgba(46, 46, 46, 1);
+  height: 95px;
+  margin-bottom: 4rem;
+}
+
 .logo {
   width: 300px;
 }
 
 .logo--small {
-  width: 100px;
+  width: 70px;
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -114,4 +119,5 @@ label {
 #map {
   width: 1150px;
   height: 714px;
+  margin-top: 3rem;
 }

@@ -15,9 +15,9 @@ let cfg = {
 };
 let heatmapLayer = new HeatmapOverlay(cfg);
 
-// Determine min/max (from sales.js file) for the heatmap.js plugin
-let min = Math.min(...sales.map(sale => sale.value));
-let max = Math.max(...sales.map(sale => sale.value));
+// // Determine min/max (from sales.js file) for the heatmap.js plugin
+// let min = Math.min(...sales.map(sale => sale.value));
+// let max = Math.max(...sales.map(sale => sale.value));
 
 // Create the overall Leaflet map using the two layers we created
 let propertyHeatMap = new L.Map('map', {
@@ -28,7 +28,5 @@ let propertyHeatMap = new L.Map('map', {
 
 // Add data (from sales.js file) to the heatmap.js layer
 heatmapLayer.setData({
-  min: min,
-  max: max,
-  data: sales
+  data: slavery
 });
