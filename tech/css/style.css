@@ -37,11 +37,11 @@ h3 {
 }
 
 .navbar {
-    background-color: rgba(46, 46, 46, 1);
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    font-size: 0.8rem;
+  background-color: rgba(46, 46, 46, 1);
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
 }
 
 .logo {
@@ -96,4 +96,9 @@ label {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#map {
+  width: 1150px;
+  height: 714px;
 }
