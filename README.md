@@ -48,7 +48,8 @@ The webapp covers the opportunity to report slavery issues and a section where e
 ### Reporting issues
 
 The reportin form is fitted with a geolocator to fill out the position information automatically.
-- screenshot form 
+
+![Form Screen](screens/form.png)
 
 
 ### Modern Slavery Wiki
