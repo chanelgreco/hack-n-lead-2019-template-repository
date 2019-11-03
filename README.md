@@ -55,7 +55,8 @@ The reportin form is fitted with a geolocator to fill out the position informati
 ### Modern Slavery Wiki
 The Modern Slavery wiki is the educational part of the app. A draft how this wiki could look like and which categories of information and links to external sources it could contain are just documented in the presentation slides but not in the app until now.
 
-- screen from presentation
+![Education Sample](screens/education-sample.png)
+
 
 ## License
 
