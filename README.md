@@ -1,12 +1,17 @@
 # [Hack n Lead 2019](https://womenplusplus.ch/hacknlead)
 
+This repository was created during the Hack'n'Lead 2019 organized by women++.
+For more information about Switzerland's first womenfriendly Hackathon please visit: https://www.womenplusplus.ch/hacknlead
+
 ===
 
-## Steps
+## Team V2+MC=A
 
-1. `Fork` this repository
-2. Add your team members as contributors
-3. Put your presentation in the `docs/` folder
-4. This repository **must** be open source (and licensed) in order to submit
+
+## Thomson Reuters Challenge
+
+
+## P.A.S. – People Against Slavers
+
 
 
