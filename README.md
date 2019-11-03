@@ -43,8 +43,7 @@ The webapp is called **P.A.S. – People Against Slavery**. It is a webapp and n
 ### Home
 The webapp covers the opportunity to report slavery issues and a section where everybody can read more about the problems in context.
 
-
-- screenshot index page
+![Home Screen](screens/Home.png)
 
 ### Reporting issues
 
