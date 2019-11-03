@@ -40,6 +40,8 @@ We decided as a team to creat a webapp which allows people around the globe to r
 
 The webapp is called **P.A.S. – People Against Slavery**. It is a webapp and not a mobile app for iOs and Andriod so it's not limited to any OS or device and everyone can use it in the browser.
 
+The webapp is in a mockup state and there is no database related to the submitting form yet.
+
 
 ### Home
 The webapp covers the opportunity to report slavery issues and a section where everybody can read more about the problems in context.
@@ -61,6 +63,9 @@ This is an example on topics the wiki could contain:
 
 ![Education Sample](screens/education-sample.png)
 
+
+## HeatMap
+The dataset for the heatmap can be found on https://www.globalslaveryindex.org/ .
 
 ## Further information
 Further information concerning the P.A.S. project you can in the presentation slides inside the docs folder. There is also included a detailed version of the business model.
