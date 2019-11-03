@@ -48,6 +48,13 @@ h3 {
   width: 300px;
 }
 
+.logo--small {
+  width: 100px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 4rem;
