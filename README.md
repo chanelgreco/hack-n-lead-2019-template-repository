@@ -4,8 +4,10 @@ This repository was created during the Hack'n'Lead 2019 organized by women++.
 For more information about Switzerland's first womenfriendly Hackathon please visit: https://www.womenplusplus.ch/hacknlead
 
 ===
+
 # P.A.S. – People Against Slavery
 ![PAS Logo](tech/PAS-LOGO-Background.png)
+
 
 ## Team V<sup>2</sup>+MC=A
 
@@ -15,9 +17,10 @@ Our team consisted of four people:
 * **M**arina Kraus – Coding, Project Management and Documentation
 * **C**hanel Greco – Coding, Project Management and Teaching Marina
 
+
 ## Thomson Reuters Challenge
 
-The Thomson Reuters Challenge which we choose covered the topic:
+The [Thomson Reuters Challenge](https://share.nuclino.com/p/HacknLead-2019-Challenges-6o0DigwQEVIL2ZSXrBcY_x) which we choose covered the topic:
 
 **"Combating Modern Slavery in the Supply Chains through Technology"**
 
@@ -31,19 +34,26 @@ During one hour of brainstorming we worked out:
 
 We decided as a team to creat a webapp which allows people around the globe to report slavery issues the witness in an easy way. The data should be visible in a public heat map to create awareness of problematic hotspots when it comes to modern slavery. 
 
+
 ## P.A.S. – People Against Slavery
 
 The webapp is called **P.A.S. – People Against Slavery**. It is a webapp and not a mobile app for iOs and Andriod so it's not limited to any OS or device and everyone can use it in the browser.
 
+
+### Home
 The webapp covers the opportunity to report slavery issues and a section where everybody can read more about the problems in context.
+
 
 - screenshot index page
 
-- description form
+### Reporting issues
 
-- screenshot form
+The reportin form is fitted with a geolocator to fill out the position information automatically.
+- screenshot form 
 
-- description education part
+
+### Modern Slavery Wiki
+The Modern Slavery wiki is the educational part of the app. A draft how this wiki could look like and which categories of information and links to external sources it could contain are just documented in the presentation slides but not in the app until now.
 
 - screen from presentation
 
