@@ -49,5 +49,4 @@ The webapp covers the opportunity to report slavery issues and a section where e
 
 ## License
 
-GNU...
-
+ [GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007](https://github.com/chanelgreco/hack-n-lead-2019-template-repository/blob/master/LICENSE)
